@@ -164,8 +164,8 @@ height:40px;
 width: 100%;
 padding: 0;
 margin: 0;
-}
-*/
+}*/
+
 /*#fullpage{
 height: 100%; 
 position: relative; 
@@ -189,30 +189,70 @@ transform: translate3d(0px, -350.75px, 0px);"
   padding: 150px 0px;
 }
 
-.wedding {
-  background-image: url('../img/bg_wedding.png');
+
+
+/******************************
+ SLIDE 2
+*******************************/
+
+/*.wedding img:first-child{
+  position:absolute;
+top: 700px;
+left: -150px;
+}*/
+
+.wedding img:nth-child(3){
+  position:absolute;
+  top:600px;
+  left:300px;
+}
+.wedding img:nth-child(4){
+  position:absolute;
+  top:400px;
+  left:300px;
+}
+.wedding img:nth-child(5){
+  position:absolute;
+  top:600px;
+  right:300px;
+}
+.wedding img:nth-child(6){
+  position:absolute;
+  top:600px;
+  right:300px;
+}
+.wedding img:nth-child(7){
+  position:absolute;
+  top:400px;
+  right:100px;
+}
+.wedding img:nth-child(8){
+  position:absolute;
+  top:100px;
+  right:300px;
 }
 
-.wedding .front-layer {
+/*.wrapper {
+  width:960px;
+  height:200px;
+  margin:0 auto;
+  position:relative;
+}
+*/
+
+
+
+.wedding {
+  background-image: url('../img/wedding_bg_back.png');
+}
+
+/*.wedding .front-layer {
   background-image: url("../img/wedding_bg_back.png");
   background-attachment: fixed;
   background-repeat: no-repeat;
 
-}
+}*/
 
-.corporate .front-layer {
-    background-image: url("../img/corporate_bg_back.png");
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-}
-
-.back-layer {
-  margin-top: -100px;
-  position: absolute;
- /* background-image: url("img/wedding_bg_front.png");
-  background-attachment: fixed;
-  background-repeat: no-repeat;*/
-}
 
 article,
 aside,
