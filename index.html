@@ -24,24 +24,26 @@
 
   <script type="text/javascript" src="http://mashatimmpa.github.io/event_2/js/fullPage.js-master/jquery.fullPage.js"></script>
 
-    <script type="text/javascript" src="http://mashatimmpa.github.io/event_2/js/stellar.js-master/jquery.stellar.min.js"></script>
+  <script type="text/javascript" src="http://mashatimmpa.github.io/event_2/js/stellar.js-master/jquery.stellar.min.js"></script>
 
    
 
-    <script type="text/javascript">
-      var causeRepaintsOn = $('.score-text');
+  <script type="text/javascript">
+    if(window.screen.width>=982){
 
-      $(window).resize(function () {
-      causeRepaintsOn.css("z-index");
-        });     
-    </script>
-   
- <script type="text/javascript">
-      $(document).ready(function() {
-      $('#fullpage').fullpage();
-      });
-    </script>
-  
+    var causeRepaintsOn = $('.score-text');
+    $(window).resize(function () {
+    causeRepaintsOn.css("z-index");
+      });     
+
+    $(document).ready(function() {
+    $('#fullpage').fullpage();
+    });
+
+    }
+  </script>
+
+
 
   </head>
   
@@ -73,42 +75,39 @@
             </div>
           </div>
         </div>
-      </div>
-        <!-- </div> -->
-         
-      <!-- <div class="main events">
-           -->
-          
-          <div class="section event wedding">
-            <header>
-              <h2 class="text-center">Обери свою подію</h2>
-            </header>
-            <div class=" front-layer">
-              <div class="container" >
-                <h3 class="text-center">Весілля</h3>
-                <p >Ніжне або шалене, камерне або півторитисячне,
-                вінтажне або гранжеве - плануйте сміливо, влаштуємо згідно будь-яким вашим  забаганкам. Вашу мрію ми втілимо сміливо й креативно, ви можете бути за кермом всього свята або ж залишити організацію цілком нашим професіоналам та отримати впродовж свята емоції здивування</p>
-              </div>
-            </div>
-         <!--    <div class="back-layer" >
-                <img src="img/wedding_bg_front.png">
-            </div> -->
-          </div>
-          <div class="section event corporate">  
-            <div class="front-layer">
-              <div class="container" >
-                <h3 class="text-center">Корпоративне свято</h3>
-                <p>Подія, що піднесе відносини всередині вашого колектива до небаченого досі рівня. Стрибки з парашутами або політ на повітряній кулі, мисливські пригоди або розваги в п'ятизірковому готелі - ми можемо влаштувати все! Запрошуйте всіх</p>
-              </div>
-            </div>
-          <!--   <div class="back-layer" >
-                <img src="img/corporate_bg_front.png">
-            </div> -->
-          </div>
        </div>
+
+        <div class="section event wedding">
+          <header class="text-center sticky">
+            <h2>обери свою подію</h2>
+          </header> 
+          <div class=" front-layer">
+            <div class="container" >
+              <h3 class="text-center">Весілля</h3>
+              <p >Ніжне або шалене, камерне або півторитисячне,
+              вінтажне або гранжеве - плануйте сміливо, влаштуємо згідно будь-яким вашим  забаганкам. Вашу мрію ми втілимо сміливо й креативно, ви можете бути за кермом всього свята або ж залишити організацію цілком нашим професіоналам та отримати впродовж свята емоції здивування</p>
+            </div>
+          </div>
+       <!--    <div class="back-layer" >
+              <img src="img/wedding_bg_front.png">
+          </div> -->
+        </div>
+        <div class="section event corporate">
+
+          <div class="front-layer">
+            <div class="container" >
+              <h3 class="text-center">Корпоративне свято</h3>
+              <p>Подія, що піднесе відносини всередині вашого колектива до небаченого досі рівня. Стрибки з парашутами або політ на повітряній кулі, мисливські пригоди або розваги в п'ятизірковому готелі - ми можемо влаштувати все! Запрошуйте всіх</p>
+            </div>
+          </div>
+        <!--   <div class="back-layer" >
+              <img src="img/corporate_bg_front.png">
+          </div> -->
+        </div>
      </div>
-      
-     
+   </div>
+    
+   
     
     <!--  <footer>
      </footer> -->
