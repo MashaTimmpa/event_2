@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>Ивентіще: події та свята з душею</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="/js/fullPage.js-master/jquery.fullPage.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+<!-- This following line is needed in case of using the default easing option or when using another
+ one rather than "linear" or "swing". You can also add the full jQuery UI instead of this file if you prefer -->
+  <script src="http://mashatimmpa.github.io/event_2/js/fullPage.js-master/vendors/jquery.easings.min.js"></script>
+
+
+<!-- This following line needed in the case of using the plugin option `scrollOverflow:true` -->
+  <script type="text/javascript" src="http://mashatimmpa.github.io/event_2/js/fullPage.js-master/vendors/jquery.slimscroll.min.js"></script>
+
+  <script type="text/javascript" src="http://mashatimmpa.github.io/event_2/js/fullPage.js-master/jquery.fullPage.js"></script>
+
+  <!--<script type="text/javascript" src="http://mashatimmpa.github.io/event_2/js/stellar.js-master/jquery.stellar.min.js"></script>
+  -->
+  <script type="text/javascript">
+
+    var causeRepaintsOn = $('.score-text');
+       $(window).resize(function () {
+        causeRepaintsOn.css("z-index");
+      });     
+  </script>
+
+  <!--<script type="text/javascript">
+    $('#main').stellar();
+  </script>
+-->
+  <script type="text/javascript">
+    if(window.screen.width>=982){
+      $(document).ready(function() {
+        $('#fullpage').fullpage();
+      });
+    }
+  </script>
+
+  </head>
+  
+  <body>
+    <div id="fullpage">
+      <div  class="section main-screen">
+        <div class="container">
+        <header>
+           <div class="logo"><h1>ивент</h1></div>
+        </header>
+
+        <div class="row">
+          <!-- меню -->
+            <div class="nav col-md-3">
+              <ul class="main-menu">
+                <li><a href="#">Свята</a></li>
+                <li><a href="#">Ціни</a></li>
+                <li><a href="#">Наші роботи</a></li>
+                <li><a href="#">Контакти</a></li>
+              </ul>
+            </div>
+                <!-- праздничній круг -->
+            <div class="circle circle-border col-sm-12 col-sm-offset-0 col-md-4 col-md-offset-2">
+              <div class="circle-inner">
+               <p class="score-text first-line">зробимо</p><br>
+               <p class="score-text second-line">ваше свято</p><br>
+               <p class="score-text third-line">неповторним</p>
+              </div>
+            </div>
+          </div>
+        </div>
+       </div>
+
+        <div class="section event wedding">
+          <header class="text-center sticky">
+            <h2>обери свою подію</h2>
+          </header> 
+          <div class=" front-layer">
+            <div class="container" >
+              <h3 class="text-center">Весілля</h3>
+              <p >Ніжне або шалене, камерне або півторитисячне,
+              вінтажне або гранжеве - плануйте сміливо, влаштуємо згідно будь-яким вашим  забаганкам. Вашу мрію ми втілимо сміливо й креативно, ви можете бути за кермом всього свята або ж залишити організацію цілком нашим професіоналам та отримати впродовж свята емоції здивування</p>
+            
+            <img src="/img/wedding/berry_heart.png">
+            <img src="/img/wedding/pizza_heart.png">
+            <img src="/img/wedding/strberry_heart.png">
+            <img src="/img/wedding/heart_heart.png">
+            <img src="/img/wedding/green_heart.png">
+            <img src="/img/wedding/slowers_heart.png">
+         
+          </div>
+         </div> 
+        </div>
+        <div class="section event corporate">
+
+          <div class="front-layer">
+            <div class="container" >
+              <h3 class="text-center">Корпоративне свято</h3>
+              <p>Подія, що піднесе відносини всередині вашого колектива до небаченого досі рівня. Стрибки з парашутами або політ на повітряній кулі, мисливські пригоди або розваги в п'ятизірковому готелі - ми можемо влаштувати все! Запрошуйте всіх</p>
+            </div>
+          </div>
+        </div>
+     </div>
+   </div>
+    
+   
+    
+    <!--  <footer>
+     </footer> -->
+   </body>
+</html>
+
