@@ -25,25 +25,22 @@
   <script type="text/javascript" src="http://mashatimmpa.github.io/event_2/js/fullPage.js-master/jquery.fullPage.js"></script>
 
   <script type="text/javascript" src="http://mashatimmpa.github.io/event_2/js/stellar.js-master/jquery.stellar.min.js"></script>
-
-   
-
   <script type="text/javascript">
-    if(window.screen.width>=982){
 
     var causeRepaintsOn = $('.score-text');
-    $(window).resize(function () {
-    causeRepaintsOn.css("z-index");
+       $(window).resize(function () {
+        causeRepaintsOn.css("z-index");
       });     
-
-    $(document).ready(function() {
-    $('#fullpage').fullpage();
-    });
-
-    }
   </script>
 
 
+  <script type="text/javascript">
+    if(window.screen.width>=982){
+      $(document).ready(function() {
+        $('#fullpage').fullpage();
+      });
+    }
+  </script>
 
   </head>
   
