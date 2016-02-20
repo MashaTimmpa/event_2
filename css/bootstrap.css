@@ -194,11 +194,11 @@ transform: translate3d(0px, -350.75px, 0px);"
  SLIDE 2
 *******************************/
 
-/*.wedding img:first-child{
+.wedding img:nth-child(2){
   position:absolute;
 top: 700px;
 left: -150px;
-}*/
+}
 
 .wedding img:nth-child(3){
   position:absolute;
